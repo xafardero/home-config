@@ -1,1 +1,21 @@
-/home/xaf/.alias
+#Go To
+alias code="cd ~/Code/"
+alias codezend="cd ~/Code/holaluz_zend"
+alias codelaravel="cd ~/Code/holaluz_laravel"
+alias codealta="cd ~/Code/holaluz_alta"
+alias homestead="cd ~/Homestead"
+alias vm="cd ~/Homestead &&  vagrant ssh"
+alias vagrantup="cd ~/Homestead &&  vagrant up && cd -"
+alias documents="cd ~/Documents/"
+alias documentswork="cd ~/Documents/Work"
+#PHP related
+alias phpunit="vendor/bin/phpunit"
+alias ctagsphp="ctags -R --exclude=.git --exclude=.node_modules --exclude=.test --PHP-kinds=+cf"
+alias checkErrors="find -path '*/vendor/*' -prune -o -name '*.php' -exec php -l {} \; | grep -v \"No syntax errors\""
+#Edit files
+alias aliases="vim ~/.aliases"
+alias magiaborras="vim ~/.passwords"
+#Special Ops
+alias google="ping 8.8.8.8"
+alias disableKeyboard="xinput disable \"AT Translated Set 2 keyboard\""
+alias please='sudo $(fc -ln -1)'
