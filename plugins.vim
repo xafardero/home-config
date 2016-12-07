@@ -1,0 +1,1 @@
+/home/xaf/.vim/plugins.vim
